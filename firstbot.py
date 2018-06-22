@@ -25,7 +25,7 @@ def process_submission(submission):
     for question_phrase in QUESTIONS:
         if question_phrase in normalized_title:
             print('Replying to: {}'.format(submission.title)) #to see, for us
-            submission.reply(reply_text) # reply a template, we can edit. more pretty,templates are.
+            submission.reply(reply_text) # reply a template, we can edit to. more pretty,templates are.
             # been made, a reply. bothering reddit, stop i must.
             break
 
